@@ -31,10 +31,12 @@ app.use(passport.initialize())
 app.use(passport.session())
 app.use(methodOverride('_method'))
 
+//main page that loads for user when going to "/"
 app.get('/', checkAuthenticated, (req, res) => {
   res.render('index.ejs', { name: req.user.name })
 })
 
+//login page that loads for user when going to "/"
 app.get('/login', checkNotAuthenticated, (req, res) => {
   res.render('login.ejs')
 })

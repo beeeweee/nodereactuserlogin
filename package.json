@@ -1,25 +1,27 @@
 {
-  "name": "current-project",
+  "name": "nodereactuserlogin",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "passport-config.js",
   "scripts": {
     "devStart": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beeeweee/nodereactuserlogin.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beeeweee/nodereactuserlogin/issues"
+  },
+  "homepage": "https://github.com/beeeweee/nodereactuserlogin#readme",
   "dependencies": {
-    "bcrypt": "^3.0.6",
-    "ejs": "^2.6.2",
-    "express": "^4.17.1",
-    "express-flash": "0.0.2",
-    "express-session": "^1.16.2",
-    "method-override": "^3.0.0",
-    "passport": "^0.4.0",
-    "passport-local": "^1.0.0"
+    "ejs": "^3.1.7",
+    "express": "^4.18.0"
   },
   "devDependencies": {
-    "dotenv": "^8.0.0",
-    "nodemon": "^1.19.1"
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
   }
 }
